@@ -1,4 +1,52 @@
-# UdemyMicroservices
-".Net 5 ile Microservices" kursunda inşa ettiğimiz microservice proje yapısı
-![microservice_mimari](https://user-images.githubusercontent.com/46678087/114802958-42c15d80-9da7-11eb-8391-ba0abf87a1b1.png)
 
+
+# ETradeMicroservice
+# ETrade Microservices Project 🚀
+
+## Overview
+This project is a **SocialApp** built on **.NET** using a microservices architecture. It leverages powerful tools and technologies such as **Entity Framework**, **Dapper**, **SignalR**, **RabbitMQ**, and **Ocelot** for optimized performance, real-time capabilities, and seamless API gateway integration.
+
+---
+
+## Features ✨
+- **Microservice Architecture** for scalability and efficiency.
+- ORM integration:
+  - **Entity Framework**
+  - **Dapper**
+- Multi-Database Support:
+  - **MSSQL**
+  - **MongoDB**
+  - **PostgreSQL**
+- Real-time Messaging with **SignalR**
+- Event-Driven Architecture using **RabbitMQ** for asynchronous events.
+- **Docker** for containerization.
+- **Ocelot API Gateway** for unified service access.
+
+---
+
+## Technologies
+- **.NET Core** ✔️
+- **Entity Framework** 🔹
+- **Dapper** 🔸
+- **MSSQL**, **MongoDB**, **PostgreSQL**
+- **RabbitMQ** 🐇
+
+- **Docker** 🐳
+- **Ocelot** 🌐
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Docker
+- .NET SDK
+- MSSQL, MongoDB, PostgreSQL
+- RabbitMQ
+
+### Installation
+1. **Clone** the repository:
+   ```bash
+   git clone https://github.com/your-username/SocialApp-Microservices.git
+### Docker
+docker-compose up --build
